@@ -24,10 +24,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="general">General Information</h2>
 
-{% comment %}
-INTRODUCTION
+
 Welcome everybody to today's Software Carpentary Workshop. Today's course is going to teach usall about how to use R to analyse our data. 
-{% endcomment %}
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
